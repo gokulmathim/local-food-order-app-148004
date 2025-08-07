@@ -39,7 +39,20 @@ case "`uname`" in
     ;;
 esac
 
+# Set APP_HOME to the directory where this script is located
+APP_HOME=$(cd "$(dirname "$0")"; pwd)
+
 CLASSPATH=$APP_HOME/gradle/wrapper/gradle-wrapper.jar
+
+# Debugging output for CI context issues
+echo "[gradlew debug] APP_HOME=$APP_HOME"
+echo "[gradlew debug] Current Directory: $(pwd)"
+echo "[gradlew debug] CLASSPATH=$CLASSPATH"
+if [ -f "$APP_HOME/gradle/wrapper/gradle-wrapper.jar" ]; then
+  echo "[gradlew debug] gradle-wrapper.jar exists at $APP_HOME/gradle/wrapper/gradle-wrapper.jar"
+else
+  echo "[gradlew debug] gradle-wrapper.jar MISSING at $APP_HOME/gradle/wrapper/gradle-wrapper.jar"
+fi
 
 # Determine the Java command to use to start the JVM.
 if [ -n "$JAVA_HOME" ] ; then
