@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">food_ordering_android_frontend</string>
+    <string name="app_name">FoodOrder</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_restaurants">Restaurants</string>
+    <string name="title_cart">Cart</string>
+    <string name="title_orders">Orders</string>
+    <string name="title_profile">Profile</string>
 </resources>

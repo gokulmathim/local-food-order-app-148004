@@ -1,0 +1,13 @@
+<resources>
+    <color name="colorPrimary">#FF5722</color>
+    <color name="colorSecondary">#FFC107</color>
+    <color name="colorAccent">#8BC34A</color>
+    <color name="bottom_nav_background">#FFFFFF</color>
+    <color name="bottom_nav_icon">#FF5722</color>
+    <color name="bottom_nav_text">#212121</color>
+    <color name="gray_bg">#F8F9FA</color>
+    <color name="card_bg">#FFFFFF</color>
+    <color name="card_shadow">#BDBDBD</color>
+    <color name="text_main">#212121</color>
+    <color name="text_secondary">#757575</color>
+</resources>
