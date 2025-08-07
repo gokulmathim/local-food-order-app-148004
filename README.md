@@ -1,1 +1,3 @@
-# local-food-order-app-148004
+# Project Repository
+
+This is the initial README file for the project.
