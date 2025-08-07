@@ -1,0 +1,4 @@
+{
+    "command": "./gradlew installDebug",
+    "working_directory": "/home/kavia/workspace/code-generation/local-food-order-app-148004/food_ordering_android_frontend"
+}
